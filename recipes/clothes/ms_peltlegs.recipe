@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "leather", "count" : 1 }
+  ],
+  "output" : { "item" : "ms_peltlegs", "count" : 1 },
+  "groups" : [ "armors", "legs", "all" ]
+}

@@ -1,0 +1,13 @@
+{
+	"id" : "mossandiary",
+	"title" : "Mossan Log",
+	"description" : "A log of Mossan Creativity.",
+	"icon" : "mossancover.png",
+	"contentPages" : [
+    "Lore here."
+	],
+		"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

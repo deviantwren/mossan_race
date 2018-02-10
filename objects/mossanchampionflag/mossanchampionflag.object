@@ -1,0 +1,60 @@
+{
+  "objectName" : "mossanchampionflag",
+  "colonyTags" : ["mossan"],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "objectType" : "teleporter",
+  "category" : "teleportMarker",
+  "price" : 3000,
+  "radioMessagesOnPickup" : [ "pickupflag" ],
+  "health" : 50,
+  
+  "description" : "The Mossan land claim marker. Use ^green;[E]^white; to bookmark a teleportation location.",
+  "shortdescription" : "Mossan Champion Flag",
+  "race" : "Mossan",
+  "apexDescription" : "An unknown flag statue. I can use this as a waypoint for teleportation.",
+  "avianDescription" : "This daunting flag statue can be bookmarked as a destination for my ship teleporter.",
+  "floranDescription" : "Mossan flag makess good point to teleport back to ussing teleporter",
+  "glitchDescription" : "Observant. A small locator module attached to this Floran-hybrid flag allows it to be bookmarked for teleportation.",
+  "humanDescription" : "This awesome flag momument can be saved as a location for my teleporter. Then I can return to it at any time.",
+  "hylotlDescription" : "This Mossan flag can act as a way point, but returning to this point could be a terrible ambush.",
+  "novakidDescription" : "I can bookmark this Mossan flag for quick teleportin'.",
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
+  "inventoryIcon" : "mossanchampionflagicon.png",
+
+
+  "lightColor" : [44, 131, 108],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "mossanchampionflag.png:<color>.<frame>", "fullbright" : true }, { "image" : "mossanchampionflaglit.png:<color>.<frame>" } ],      
+      "imagePosition" : [-40, 0],
+      "lightPosition" : [-3, 8],
+      "frames" : 9,
+      "animationCycle" : 1.2,
+      "direction" : "left",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "mossanchampionflag.png:<color>.<frame>", "fullbright" : true }, { "image" : "mossanchampionflaglit.png:<color>.<frame>" } ],      
+      "imagePosition" : [-40, 0],
+      "lightPosition" : [2, 8],
+      "frames" : 9,
+      "animationCycle" : 1.2,
+      "direction" : "right",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/projectiles/zone_healing_loop.ogg"
+}

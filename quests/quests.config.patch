@@ -1,0 +1,12 @@
+[
+  {
+  "op" : "add",
+  "path" : "/initialquests/mossan",
+  "value" : [ "protectorate" ]
+  },
+  {
+  "op" : "add",
+  "path" : "/pronounGenders/mossan",
+  "value" : { "male": "male", "female": "female" }
+  }
+]

@@ -1,0 +1,11 @@
+{
+	"name" : "mossan_race",
+	"version" : "",
+	"path" : ".",
+	"dependencies" : [ "" ],
+	"metadata" : {
+		"author" : "Mntle a.k.a. Deviantwren",
+		"description" : "Grow Moss, grow.",
+		"version" : "1.3.3"
+	}
+}

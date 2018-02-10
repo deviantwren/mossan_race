@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "corefragmentore", "count" : 20 },
+    { "item" : "durasteelbar", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "licherechampionflag",
+    "count" : 1
+  },
+  "groups" : [ "all", "licheretech", "licherefane" ]
+}

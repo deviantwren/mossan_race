@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "plantfibre", "count" : 35 }
+  ],
+  "output" : { "item" : "ms_huntchest", "count" : 1 },
+  "groups" : [ "armors", "chest", "all" ]
+}

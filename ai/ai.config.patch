@@ -1,0 +1,11 @@
+[
+  {
+  "op" : "add",
+  "path" : "/species/mossan",
+  "value" : {
+      "aiFrames" : "mossanAI.png",
+      "portraitFrames" : "portraits/mossanportrait.png",
+      "staticFrames" : "staticHylotl.png"
+    }
+  }
+]
